@@ -39,51 +39,8 @@ export function Hero() {
         transition={{ duration: 0.5, delay: 0.2 }}
         className="text-lg md:text-xl text-secondary mb-12 max-w-4xl leading-relaxed flex flex-wrap items-center justify-center gap-2"
       >
-        <span>
-          MediaSync met automatiquement en pause votre musique lorsque vous
-          lancez la lecture dans
-        </span>
-        <Link
-          href="https://www.adobe.com/fr/products/premiere.html"
-          target="_blank"
-          rel="noopener noreferrer"
-          className="inline-flex items-center gap-1.5 text-primary hover:text-white transition-colors"
-        >
-          <img
-            src="/premiere.webp"
-            alt="Premiere Pro"
-            className="w-6 h-6 inline-block"
-          />
-          <span className="font-semibold">Premiere Pro</span>
-        </Link>
-        <span>,</span>
-        <Link
-          href="https://www.blackmagicdesign.com/fr/products/davinciresolve"
-          target="_blank"
-          rel="noopener noreferrer"
-          className="inline-flex items-center gap-1.5 text-primary hover:text-white transition-colors"
-        >
-          <img
-            src="/resolve.webp"
-            alt="DaVinci Resolve"
-            className="w-6 h-6 inline-block"
-          />
-          <span className="font-semibold">DaVinci Resolve</span>
-        </Link>
-        <span>ou</span>
-        <Link
-          href="https://www.adobe.com/fr/products/aftereffects.html"
-          target="_blank"
-          rel="noopener noreferrer"
-          className="inline-flex items-center gap-1.5 text-primary hover:text-white transition-colors"
-        >
-          <img
-            src="/after_effects.webp"
-            alt="After Effects"
-            className="w-6 h-6 inline-block"
-          />
-          <span className="font-semibold">After Effects</span>
-        </Link>
+        MediaSync met automatiquement en pause votre musique lorsque vous lancez
+        la lecture dans Premiere Pro, DaVinci Resolve ou After Effects.
       </motion.p>
 
       <motion.div

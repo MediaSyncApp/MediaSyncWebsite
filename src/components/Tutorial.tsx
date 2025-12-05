@@ -35,25 +35,17 @@ export function Tutorial() {
 
             {/* 
               TODO: Remplacer par votre vidéo ou iframe YouTube
-              Exemple iframe YouTube :
-              <iframe 
-                width="100%" 
-                height="100%" 
-                src="https://www.youtube.com/embed/VOTRE_ID_VIDEO" 
-                title="MediaSync Tutorial" 
-                frameBorder="0" 
-                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
-                allowFullScreen 
-                className="absolute inset-0 w-full h-full"
-              ></iframe>
-              
-              Exemple vidéo locale :
-              <video 
-                src="/videos/tuto.mp4" 
-                controls 
-                className="absolute inset-0 w-full h-full object-cover"
-              />
-            */}
+              Exemple iframe YouTube :*/}
+            <iframe
+              width="100%"
+              height="100%"
+              src="https://www.youtube.com/embed/gwetx-o3t5I"
+              title="MediaSync Tutorial"
+              frameBorder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+              allowFullScreen
+              className="absolute inset-0 w-full h-full"
+            ></iframe>
           </div>
         </motion.div>
       </div>

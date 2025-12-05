@@ -102,7 +102,7 @@ export function InstallationSteps() {
               <div className="flex items-center gap-2 text-primary">
                 <span className="select-none opacity-50">$</span>
                 <span>
-                  git clone https://github.com/ArnaudGct/MediaSync.git
+                  git clone https://github.com/MediaSyncApp/MediaSync.git
                 </span>
               </div>
             </div>

@@ -50,7 +50,7 @@ export function Hero() {
         className="flex flex-col sm:flex-row gap-4 w-full sm:w-auto"
       >
         <a
-          href="https://github.com/ArnaudGct/MediaSync/releases"
+          href="https://github.com/MediaSyncApp/MediaSync/releases"
           target="_blank"
           rel="noopener noreferrer"
           className="px-8 py-4 rounded-xl bg-primary text-black font-bold transition-all duration-300 flex items-center justify-center gap-2 hover:bg-[#3BE36B] hover:shadow-[0_0_20px_rgba(48,209,89,0.4)]"
@@ -59,7 +59,7 @@ export function Hero() {
           Télécharger pour macOS
         </a>
         <a
-          href="https://github.com/ArnaudGct/MediaSync"
+          href="https://github.com/MediaSyncApp/MediaSync"
           target="_blank"
           rel="noopener noreferrer"
           className="px-8 py-4 rounded-xl bg-white/5 border border-white/10 transition-all duration-300 flex items-center justify-center gap-2 hover:bg-white/10 hover:border-white/20 backdrop-blur-sm"

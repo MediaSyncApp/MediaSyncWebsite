@@ -26,7 +26,7 @@ export function Navbar() {
             Soutenir
           </a>
           <a
-            href="https://github.com/ArnaudGct/MediaSync"
+            href="https://github.com/MediaSyncApp/MediaSync"
             target="_blank"
             rel="noopener noreferrer"
             className="text-secondary hover:text-white transition-colors p-2 hover:bg-white/5 rounded-lg"

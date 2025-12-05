@@ -28,7 +28,7 @@ export function Footer() {
           </a>
           <div className="w-px h-4 bg-white/10" />
           <a
-            href="https://github.com/ArnaudGct/MediaSync"
+            href="https://github.com/MediaSyncApp/MediaSync"
             target="_blank"
             rel="noopener noreferrer"
             className="hover:text-white transition-colors"

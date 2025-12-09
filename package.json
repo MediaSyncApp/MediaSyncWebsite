@@ -19,6 +19,9 @@
     "react": "$react",
     "react-dom": "$react-dom"
   },
+  "engines": {
+    "node": ">=20.0.0"
+  },
   "devDependencies": {
     "@types/node": "^20",
     "@types/react": "^19",

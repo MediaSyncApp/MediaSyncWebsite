@@ -6,15 +6,15 @@ import { Plus, Minus } from "lucide-react";
 
 const faqs = [
   {
+    question: "Pourquoi Apple bloque l'ouverture de l'application ?",
+    answer:
+      "L'application est open-source et gratuite, je ne paie pas l'abonnement développeur Apple (99$/an) pour la signer numériquement. C'est une sécurité standard de macOS pour les applications non signées. Il faut aller dans 'Réglages Système' > 'Confidentialité et sécurité' et en bas de la page, cliquer sur 'Ouvrir quand même' pour autoriser l'ouverture de l'application.",
+  },
+  {
     question:
       "Pourquoi l'application demande-t-elle l'accès à l'enregistrement d'écran ?",
     answer:
       "MediaSync utilise l'API native 'ScreenCaptureKit' d'Apple pour détecter quand une application émet du son. Nous n'enregistrons ni votre écran, ni votre audio. C'est simplement la méthode requise par macOS pour analyser les flux audio système.",
-  },
-  {
-    question: "Pourquoi dois-je faire 'Clic droit > Ouvrir' ?",
-    answer:
-      "L'application est open-source et gratuite, je ne paie pas l'abonnement développeur Apple (99$/an) pour la signer numériquement. C'est une sécurité standard de macOS pour les applications non signées.",
   },
   {
     question: "Quelles applications de montage sont supportées ?",

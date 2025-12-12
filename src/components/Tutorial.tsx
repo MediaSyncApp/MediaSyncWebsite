@@ -39,7 +39,7 @@ export function Tutorial() {
             <iframe
               width="100%"
               height="100%"
-              src="https://www.youtube.com/embed/gwetx-o3t5I"
+              src="https://www.youtube.com/embed/4QkxyqlmBKY"
               title="MediaSync Tutorial"
               frameBorder="0"
               allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"

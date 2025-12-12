@@ -77,7 +77,7 @@ export function InstallationSteps() {
           <Step
             number="03"
             title="Autoriser"
-            description="Au premier lancement, faites Clic droit → Ouvrir pour autoriser l'exécution sur macOS."
+            description="Au premier lancement, aller dans 'Réglages Système' > 'Confidentialité et sécurité' et en bas de la page, cliquer sur 'Ouvrir quand même' pour autoriser l'ouverture de l'application."
             icon={ShieldCheck}
             delay={0.3}
           />

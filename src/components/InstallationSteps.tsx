@@ -52,6 +52,7 @@ export function InstallationSteps() {
   const [latestRelease, setLatestRelease] = useState<{
     version: string;
     date: string;
+    description: string;
   } | null>(null);
 
   useEffect(() => {
@@ -67,6 +68,7 @@ export function InstallationSteps() {
         setLatestRelease({
           version: data.tag_name,
           date: formattedDate,
+          description: data.body || "Aucune description disponible",
         });
       })
       .catch((error) => {
@@ -166,6 +168,16 @@ export function InstallationSteps() {
                 Télécharger la dernière version
               </a>
             </div>
+            {latestRelease?.description && (
+              <div className="mt-4 pt-4 border-t border-white/10">
+                <h4 className="text-sm font-semibold text-white/80 mb-2">
+                  Nouveautés :
+                </h4>
+                <div className="text-sm text-white/70 whitespace-pre-line">
+                  {latestRelease.description}
+                </div>
+              </div>
+            )}
           </motion.div>
 
           {/* Instructions de mise à jour */}

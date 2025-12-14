@@ -40,7 +40,8 @@ export function Hero() {
         className="text-lg md:text-xl text-secondary mb-12 max-w-4xl leading-relaxed flex flex-wrap items-center justify-center gap-2"
       >
         MediaSync met automatiquement en pause votre musique lorsque vous lancez
-        la lecture dans Premiere Pro, DaVinci Resolve ou After Effects.
+        la lecture dans Premiere Pro, DaVinci Resolve, Final Cut Pro ou After
+        Effects.
       </motion.p>
 
       <motion.div

@@ -19,7 +19,7 @@ const faqs = [
   {
     question: "Quelles applications de montage sont supportées ?",
     answer:
-      "Actuellement : Adobe Premiere Pro, DaVinci Resolve, After Effects.",
+      "Actuellement : Adobe Premiere Pro, DaVinci Resolve, Final Cut Pro et After Effects.",
   },
   {
     question: "Quelles applications de musique sont supportées ?",

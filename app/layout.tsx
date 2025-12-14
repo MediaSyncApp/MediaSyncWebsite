@@ -7,7 +7,7 @@ const inter = Inter({ subsets: ["latin"] });
 export const metadata: Metadata = {
   title: "MediaSync - Synchronisez votre musique avec votre montage",
   description:
-    "Application macOS native pour synchroniser automatiquement Spotify et Apple Music avec Premiere Pro, DaVinci Resolve et After Effects.",
+    "Application macOS native pour synchroniser automatiquement Spotify et Apple Music avec Premiere Pro, DaVinci Resolve, Final Cut Pro et After Effects.",
 };
 
 export default function RootLayout({
